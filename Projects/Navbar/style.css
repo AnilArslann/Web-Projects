@@ -1,0 +1,27 @@
+html{
+    background: url("https://media-exp1.licdn.com/dms/image/C4E1BAQFhqtOBNMQ5EA/company-background_10000/0/1519802595418?e=2147483647&v=beta&t=8GmGM-RdHUhlNvzjQsy4MVlxRYxKCy0cXKf1HfxUouM") no-repeat center center fixed; 
+    
+    background-size: cover;
+   
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    height: 50px;
+    align-items: center;
+    background:hsl(0,0%,100%,0.1);
+    backdrop-filter: blur(1rem);
+    
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    
+}
+span{
+    font-weight: 700;
+    margin-inline-end:10px;
+}

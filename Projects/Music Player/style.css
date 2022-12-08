@@ -1,0 +1,124 @@
+body{
+    background-color:darkslategrey;
+    }
+
+
+    .player{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height:100vh;
+        align-items: center;
+    }
+    
+    .details{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center; 
+     margin-top: 20px;
+    }
+
+
+    .track-art{
+        margin: 20px;
+        height:250px;
+        width:250px;
+        background-image: url("Screen Shot 2022-03-22 at 13.27.59.png");
+        background-size: cover;
+        background-position: center;
+        border-radius: 15%;
+    }
+    
+    
+    .now-playing{
+        font-size: 1rem;
+    }
+
+
+    .track-name{
+        font-size: 3rem;
+    }
+
+
+    .track-artist{
+        font-size: 1.5rem;
+    }
+    
+    
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+    }
+    
+
+    .previous-track,
+    .start-pause,
+    .next-track{
+        padding: 25px;
+        opacity: .3; 
+    
+    }
+    
+
+    .start-pause:hover,
+    .previous-track:hover,
+    .next-track:hover
+     {
+      opacity: 1.0;
+    }
+    
+    
+    .sliders{
+        width:75%;
+        max-width:400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+
+    .seek-slider,.volume-slider{
+        height: 5px;
+        background:black;
+        color: black;
+        opacity:.5;
+    }
+    
+
+    .seek-slider:hover,
+.volume-slider:hover {
+  opacity: 1.0;
+}
+
+
+   .seek-slider{
+    width:60%;
+   }
+
+
+   .volume-slider{
+    width:30%;
+   }
+
+
+   .current-time,.total-duration{
+    padding:10px;
+   }
+
+
+   i.fa-volume-down,
+i.fa-volume-up {
+  padding: 10px;
+}
+ 
+
+i.fa-play-circle,
+i.fa-pause-circle,
+i.fa-step-forward,
+i.fa-step-backward {
+  cursor: pointer;
+}
